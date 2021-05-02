@@ -1,6 +1,20 @@
 from discord.ext import commands
 import random
 
+
+def get_keys(path):
+    try:
+        with open(path) as f:
+            print(f"{path} has been opened")
+            return json.load(f)
+    except Exception as e:
+        print(e)
+        return None
+
+keys = get_keys('api_key.json')
+
+TOKEN = keys['bot_token'] 
+
 def sum_list(l):
     sum = 0
     for x in l:
@@ -90,4 +104,4 @@ async def combat(ctx, arg, arg2):
 bot.add_command(combat)
 
 
-bot.run('ODMzODY0OTEwNjQ3MzI4Nzk4.YH4jNw.tvFL-3AELwg7WJdUJ_9E8qiiJWE')
+bot.run(TOKEN)
