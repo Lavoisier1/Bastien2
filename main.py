@@ -9,6 +9,7 @@ def sum_list(l):
 
 bot = commands.Bot(command_prefix="%")
 
+
 @commands.command()
 async def combat(ctx, arg, arg2):
 
