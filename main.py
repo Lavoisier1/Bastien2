@@ -89,4 +89,5 @@ async def combat(ctx, arg, arg2):
     
 bot.add_command(combat)
 
+
 bot.run('ODMzODY0OTEwNjQ3MzI4Nzk4.YH4jNw.tvFL-3AELwg7WJdUJ_9E8qiiJWE')
