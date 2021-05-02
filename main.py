@@ -1,6 +1,8 @@
+
+
+import json
 from discord.ext import commands
 import random
-
 
 def get_keys(path):
     try:
@@ -22,6 +24,7 @@ def sum_list(l):
     return sum
 
 bot = commands.Bot(command_prefix="%")
+
 
 
 @commands.command()
