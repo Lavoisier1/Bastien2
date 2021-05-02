@@ -17,6 +17,8 @@ keys = get_keys('api_key.json')
 
 TOKEN = keys['bot_token'] 
 
+
+
 def sum_list(l):
     sum = 0
     for x in l:
