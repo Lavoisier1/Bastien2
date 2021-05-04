@@ -101,7 +101,7 @@ async def combat(ctx, arg, arg2):
         listeloot.append(loot_individu)
     
       await ctx.send(f"Chaque individu a {loot_individu} gp pour un total de XXX gp")
-      await ctx.send(f"ITEM MAGIQUE - LOOT - ITEM MAGIQUE")
+      await ctx.send(f"ITEM MAGIQUE - LOOT - ITEM MAGIQUE Marc")
       
     else:
       await ctx.send("Chemin tranquille")
